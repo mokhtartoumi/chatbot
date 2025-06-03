@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🚀 AI Chatbot Assistant</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+    }
+
+    header {
+      background-color: #2f80ed;
+      color: white;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 24px;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    #chat-container {
+      background: white;
+      width: 90%;
+      max-width: 800px;
+      margin-top: 30px;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    #chat {
+      padding: 20px;
+      height: 60vh;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .message {
+      max-width: 80%;
+      padding: 12px 18px;
+      border-radius: 20px;
+      animation: fadeIn 0.3s ease-in;
+    }
+
+    .user {
+      align-self: flex-end;
+      background-color: #2f80ed;
+      color: white;
+    }
+
+    .bot {
+      align-self: flex-start;
+      background-color: #f1f1f1;
+      color: #333;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    #input-container {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+
+    #prompt {
+      flex: 1;
+      padding: 15px;
+      font-size: 16px;
+      border: none;
+      outline: none;
+    }
+
+    button {
+      background-color: #2f80ed;
+      color: white;
+      border: none;
+      padding: 0 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #1b63c6;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🤖 Assistant IA - Sprint Chatbot</header>
+
+  <div id="chat-container">
+    <div id="chat"></div>
+    <div id="input-container">
+      <input type="text" id="prompt" placeholder="Posez votre question..." onkeydown="handleEnter(event)" />
+      <button onclick="sendQuery()">Envoyer</button>
+    </div>
+  </div>
+
+  <script>
+    async function sendQuery() {
+      const input = document.getElementById('prompt');
+      const chat = document.getElementById('chat');
+      const prompt = input.value.trim();
+      if (!prompt) return;
+
+      // Afficher le message utilisateur
+      appendMessage(prompt, 'user');
+      input.value = '';
+
+      // Requête à l'API
+      try {
+        const response = await fetch('http://127.0.0.1:8000/chatbot/query', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt })
+        });
+        const data = await response.json();
+        appendMessage(data.response, 'bot');
+      } catch (error) {
+        appendMessage("Erreur de connexion avec le serveur.", 'bot');
+      }
+    }
+
+    function appendMessage(text, sender) {
+      const message = document.createElement('div');
+      message.classList.add('message', sender);
+      message.textContent = text;
+      document.getElementById('chat').appendChild(message);
+      document.getElementById('chat').scrollTop = document.getElementById('chat').scrollHeight;
+    }
+
+    function handleEnter(event) {
+      if (event.key === 'Enter') sendQuery();
+    }
+  </script>
+
+</body>
+</html>

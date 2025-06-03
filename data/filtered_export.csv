@@ -1,0 +1,12 @@
+problemId,description,type,isPredefined,chefId,assignedTechnician,name,email
+B67gFBV5tAeCbnJX9EfZ,Pump Malfunction,equipment,False,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,luqfQZX6vcefhWL5zwzVjej4Ghy2,,
+EFTCt96MVE7GmhpyFtx9,Pump Malfunction,equipment,True,system,,,
+EKRbdS8xzmWXQD15tRb7,hhejehfe,payment,True,system,,,
+Gl0YXf8cAjCELMfwsa40,Nozzle Stuck,safety,True,system,,,
+NqINRUYivYhkAy0i8BLx,Fuel Spill,safety,True,system,,,
+SYFh66BWmwAb9WSZuI11,pomp perdu,equipment,True,system,,,
+ePG22fjFFEPFQp5pKX49,Fuel Spill,safety,False,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,wdCf2VoTB7MSxU4su7rN0xTMgDG2,firas,firast445@gmail.com
+mLhBCR5YH5p7RcoCvdqU,Nozzle Stuck,safety,False,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,wdCf2VoTB7MSxU4su7rN0xTMgDG2,firas,firast445@gmail.com
+r1c0xv3ibOvZa7Levfj7,Pump Malfunction,equipment,False,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,luqfQZX6vcefhWL5zwzVjej4Ghy2,,
+xvDaEUtS9iVVv0PJhNCk,Pump Malfunction,equipment,False,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,luqfQZX6vcefhWL5zwzVjej4Ghy2,,
+yPoPeNdMxJgiPYhshdPN,pomp perdu,equipment,False,FwW3BnmoiNc5QEPKwEasvoHod8J3,DEfTxRLtzRV9LUIosBtCvJqdl3J3,rawen11,rawenamiri343@gmail.com

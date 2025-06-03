@@ -1,0 +1,12 @@
+problemId,description,type,isPredefined,status_problem,createdAt_problem,solvedAt,chefId,assignedTechnician,name,role,speciality,isAvailable,email,createdAt_user,place,nationality,chefIds,longitude,latitude,section
+B67gFBV5tAeCbnJX9EfZ,Pump Malfunction,equipment,False,solved,2025-04-28 15:01:05,,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,luqfQZX6vcefhWL5zwzVjej4Ghy2,,,,,,,,,,,,
+EFTCt96MVE7GmhpyFtx9,Pump Malfunction,equipment,True,,2025-04-28 14:34:44,,system,,,,,,,,,,,,,
+EKRbdS8xzmWXQD15tRb7,hhejehfe,payment,True,,2025-04-18 11:06:58,,system,,,,,,,,,,,,,
+Gl0YXf8cAjCELMfwsa40,Nozzle Stuck,safety,True,,2025-04-28 14:35:21,,system,,,,,,,,,,,,,
+NqINRUYivYhkAy0i8BLx,Fuel Spill,safety,True,,2025-04-28 14:35:04,,system,,,,,,,,,,,,,
+SYFh66BWmwAb9WSZuI11,pomp perdu,equipment,True,waiting,2025-04-29 13:33:34,,system,,,,,,,,,,,,,
+ePG22fjFFEPFQp5pKX49,Fuel Spill,safety,False,solved,2025-04-28 14:44:56,,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,wdCf2VoTB7MSxU4su7rN0xTMgDG2,firas,technicien,safety,True,firast445@gmail.com,2025-04-22 12:42:45,,,,,,
+mLhBCR5YH5p7RcoCvdqU,Nozzle Stuck,safety,False,solved,2025-04-28 14:44:52,,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,wdCf2VoTB7MSxU4su7rN0xTMgDG2,firas,technicien,safety,True,firast445@gmail.com,2025-04-22 12:42:45,,,,,,
+r1c0xv3ibOvZa7Levfj7,Pump Malfunction,equipment,False,solved,2025-04-28 14:58:43,,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,luqfQZX6vcefhWL5zwzVjej4Ghy2,,,,,,,,,,,,
+xvDaEUtS9iVVv0PJhNCk,Pump Malfunction,equipment,False,solved,2025-04-28 14:51:34,,ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,luqfQZX6vcefhWL5zwzVjej4Ghy2,,,,,,,,,,,,
+yPoPeNdMxJgiPYhshdPN,pomp perdu,equipment,False,solved,2025-04-29 13:34:50,,FwW3BnmoiNc5QEPKwEasvoHod8J3,DEfTxRLtzRV9LUIosBtCvJqdl3J3,rawen11,technicien,equipment,True,rawenamiri343@gmail.com,2025-04-29 13:32:55,,,,,,

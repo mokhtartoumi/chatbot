@@ -1,0 +1,13 @@
+userId,name,email,role,isAvailable,createdAt,place,nationality,speciality,chefIds,currentProblem,allProblems,lastAssigned,longitude,latitude,status,section
+0IcfAFSHNDV5Y9JyeLQsrjrvzYa2,aaaaaaaaaaa,aaaaaaaaaaaa@gmail.com,admin,True,2025-04-22 21:52:55,,aaaaaa,,,,,,,,,
+DEfTxRLtzRV9LUIosBtCvJqdl3J3,rawen11,rawenamiri343@gmail.com,technicien,True,2025-04-29 13:32:55,,,equipment,,,"['yPoPeNdMxJgiPYhshdPN', 'qpKSzvcN8aIJXctYFefR']",2025-05-02 15:01:41,,,,
+ElNWhCkwg7XWI6eCZnCJvhb6Y9F3,chef1,chef1@gmail.com,chef,True,2025-04-19 10:52:32,tn,,,,,,,10.0,11.2,bad,
+FPng4OPEOQQykTCGS6jJP2T519K2,assistantN,assistant1@gmail.com,assistant,True,2025-04-19 10:50:24,,,,"ElNWhCkwg7XWI6eCZnCJvhb6Y9F3, druDWyccusUsbDkIX8SkqXbyU792",,,,,,,nord
+FwW3BnmoiNc5QEPKwEasvoHod8J3,chef4,chef4@gmail.com,chef,True,2025-04-19 10:53:03,tn,,,,,,,,,,
+WBF8OtWNoCPRX33EvEvv4CqESoA2,assistantS,assistant2@gmail.com,assistant,True,2025-04-19 10:50:36,,,,,,,,,,,Sud
+ZM5GLkp9evQZnBP715XJSZ8OVx72,agile,agil@gmail.com,admin,,2025-03-23 06:14:22,,tn,,,,,,,,,
+hGcOWvgkpsd2jqJFIyZ9v3AfAFs2,technicien3,technicien3@gmail.com,technicien,True,2025-04-19 10:51:38,,,payment,,,[],,,,,
+kyZ7AKwBvkhjENGNlq1nCxeVE192,technicien1,technicien1@gmail.com,technicien,True,2025-04-19 10:51:08,,,payment,,,[],2025-04-21 13:23:18,,,,
+szXclwvydiSK2VP0dXxySCT0FY02,a,a@gmail.com,technicien,True,2025-04-21 19:23:02,,,payment,,,[],2025-04-21 19:26:27,,,,
+tTRj7KH7NCN6n8S5ATrD8P3tTQC2,technicien2,technicien2@gmail.com,technicien,True,2025-04-19 10:51:18,,,payment,,,[],2025-04-21 13:23:04,,,,
+wdCf2VoTB7MSxU4su7rN0xTMgDG2,firas,firast445@gmail.com,technicien,True,2025-04-22 12:42:45,,,safety,,,"['mLhBCR5YH5p7RcoCvdqU', 'ePG22fjFFEPFQp5pKX49']",2025-04-28 14:44:56,,,,
